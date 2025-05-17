@@ -1,5 +1,5 @@
 -- Data is useful to reutilize a data type
-data Person = Person String Int -- The first "Person" is the data type, and the second one is the construct
+data Person = Person String Int -- The first "Person" is the data type, and the second one is the constructor
 
 -- For pattern matching
 name (Person _name _age) = _name
