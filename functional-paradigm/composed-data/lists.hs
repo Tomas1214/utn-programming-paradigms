@@ -1,0 +1,13 @@
+-- Functions like head, tail, length, sum, (++), take, drop, (!!) and reverse can be applied over lists
+--  head: returns the first element
+--  tail: returns a list without the first element (can be empty)
+--  length
+--  sum: of all elements
+--  (++): concatenation of two lists
+--  take n: first n elements
+--  drop: evil take (list without first n elements)
+--  (!!): element in position n
+--  reverse: changes the element's order
+
+-- Fun detail: try writing...
+--  ghci> [8, 6...-2]
