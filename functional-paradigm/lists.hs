@@ -1,13 +1,16 @@
--- Functions like head, tail, length, sum, (++), take, drop, (!!) and reverse can be applied over lists
+-- Functions like head, tail, length, sum, (++), last, take, drop, (!!), elem, maximum and reverse can be applied over lists
 --  head: returns the first element
 --  tail: returns a list without the first element (can be empty)
---  length
+--  length: number of elements
 --  sum: of all elements
 --  (++): concatenation of two lists
 --  take n: first n elements
+--  last: last element
 --  drop: evil take (list without first n elements)
 --  (!!): element in position n
+--  elem: determines if the element is in the list
 --  reverse: changes the element's order
+--  maximum: biggest element
 
 -- Fun detail: try writing...
 --  ghci> [8, 6...-2]
