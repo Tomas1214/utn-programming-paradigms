@@ -1,0 +1,4 @@
+-- sum = foldl1 (+)
+-- product = foldl1 (*)
+-- concat = foldl1 (++)
+-- maximum = foldl1 max
