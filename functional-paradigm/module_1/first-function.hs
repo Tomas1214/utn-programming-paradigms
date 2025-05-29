@@ -1,5 +1,5 @@
 passes :: Int -> Bool --- function name :: input data type -> output data type
-passes grade = grade >= 6
+passes grade = grade >= 6 -- function name variable name (input) = function body
 
 -- Running the program
 --     $ ghci (o stack ghci)
